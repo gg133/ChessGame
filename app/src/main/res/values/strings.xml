@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Шахматы</string>
+    <string name="heading">Шахматы</string>
+    <string name="MPlocal">Multiplayer (Local)</string>
+    <string name="contentDescription">nothing</string>
+    <string name="AIlocal">Начать игру</string>
+    <string name="puzzle">Puzzles</string>
+    <string name="puzzleInstructions">Select a puzzle</string>
+</resources>
