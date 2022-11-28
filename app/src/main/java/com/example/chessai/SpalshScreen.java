@@ -15,8 +15,8 @@ public class SpalshScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spalsh_screen);
 
-       papaSound = MediaPlayer.create(this, R.raw.soundhorse);
-       soundPlay(papaSound);
+//       papaSound = MediaPlayer.create(this, R.raw.soundhorse);
+//       soundPlay(papaSound);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -26,7 +26,7 @@ public class SpalshScreen extends AppCompatActivity {
         }, 3000);
     }
     public void soundPlay(MediaPlayer sound){
-        sound.start();
+        //sound.start();
 
     }
 }
