@@ -556,8 +556,8 @@ public class    Game extends AppCompatActivity {
             seconds = 0;
             //make a dialog box informing of the win.
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("The white player has won!");
-            builder.setTitle("Game Over");
+            builder.setMessage("Вы победили!");
+            builder.setTitle("Игра окончена");
 
             builder.setPositiveButton("Exit", new DialogInterface.OnClickListener() {
                 @Override
@@ -580,8 +580,8 @@ public class    Game extends AppCompatActivity {
             seconds = 0;
             //make a dialog box informing of the win.
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("The black player has won!");
-            builder.setTitle("Game Over");
+            builder.setMessage("Вв проиграли!");
+            builder.setTitle("Игра окончена");
 
             builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
